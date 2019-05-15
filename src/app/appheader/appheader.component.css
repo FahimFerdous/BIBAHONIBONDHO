@@ -1,0 +1,13 @@
+.sticky {
+    padding-top:10px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:999999;
+    background-color: white;
+    height: 77px;
+  }
+
+  .header-top{
+      height:60px;
+  }
