@@ -68,18 +68,18 @@
             <div class="slider-contact-form-wrapper bg-primary rounded p-5 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="2000">
               <div class="row">
                 <div class="col text-center">
-                  <h2 class="font-weight-light text-color-light text-6 mb-2">Get  <strong>Registered</strong></h2>
-                  <p class="font-weight-light mb-4 px-5" style="color: wheat;">Enter your personal info below and let’s people find you.</p>
+                  <h2 class="font-weight-light text-color-light text-6 mb-2">Sign Up as  <strong>Marriage Registrar</strong></h2>
+                  <p class="font-weight-light mb-4 px-5" style="color: wheat;">Complete the Form to be a Kazi.</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col">
-                  <form id="contactForm" class="contact-form form-style-2" action="https://preview.oklerthemes.com/porto/7.4.0/php/contact-form.php" method="POST">
+                  <form id="contactForm" class="contact-form form-style-2" action="#" method="POST">
                     <div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-                      <strong>Success!</strong> Your message has been sent to us.
+                      <strong>Success!</strong> You have been Registered.
                     </div>
                       <div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-                      <strong>Error!</strong> There was an error sending your message.
+                      <strong>Error!</strong> There was an error!
                       <span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
                     </div>
                     
@@ -92,8 +92,44 @@
                       </div>
                     </div>
                     <div class="form-row">
+                      <div class="form-group col-lg-6">
+                        <input type="email" value="" data-msg-required="Please enter your Email." maxlength="100" class="form-control" name="dfsdf" id="email" placeholder="Your Email..." required>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="tel" value="" data-msg-required="Please enter your Govt. Registration Number." maxlength="100" class="form-control" name="regNum" id="regNum" placeholder="Your Registration Number..." required>
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="form-group col-lg-6">
+                          <select data-msg-required="Please enter the District." class="form-control" name="District" id="District" required="">
+                              <option value="Select" selected disabled>Select District</option>
+                              <option value="Dhaka">Dhaka</option>
+                              <option value="Maimansingh">Maimansingh</option>
+                              <option value="Gazipur">Gazipur</option>
+                              <option value="Narayangonj">Narayangonj</option>
+                            </select>
+                        
+                      </div>
+                      <div class="form-group col-lg-6">
+                          <select data-msg-required="Please enter the Thana." class="form-control" name="ThanaDrop" id="ThanaDrop" required="">
+                              <option value="Select" selected disabled>Select Thana</option>
+                              <option value="khilkhet">khilkhet</option>
+                              <option value="Uttara">Uttara</option>
+                              <option value="Tejgaon">Tejgaon</option>
+                              <option value="Dhanmondi">Dhanmondi</option>
+                            </select>
+                      </div>
+                    </div>
+
+
+                    
+
+
+
+                    <div class="form-row">
                       <div class="form-group col mb-4">
-                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control" name="message" id="message" placeholder="Your Message..." required></textarea>
+                        <textarea maxlength="500" data-msg-required="Please enter your Office Address." rows="2" class="form-control" name="Address" id="Address" placeholder="Your Address..." required></textarea>
                       </div>
                     </div>
                     <div class="form-row">

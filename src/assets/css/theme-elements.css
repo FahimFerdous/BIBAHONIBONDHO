@@ -5580,7 +5580,7 @@ label.required:after {
 
 .form-control:not(.form-control-sm):not(.form-control-lg) {
 	font-size: 13.6px;
-	font-size: 0.85rem;
+	font-size: 0.95rem;
 	line-height: 1.85;
 }
 
@@ -5843,7 +5843,7 @@ label.error#captcha-error {
 
 .form-style-2 .form-control {
 	padding: 11.2px 16px;
-	padding: 0.7rem 1rem;
+	padding: 0.6rem 1rem;
 	border: 0;
 }
 
